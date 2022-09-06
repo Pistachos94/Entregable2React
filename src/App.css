@@ -1,0 +1,73 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.textCenter{
+    text-align: center;
+}
+.disflex{
+    display: flex;
+}
+.justifyCent{
+    justify-content: center;
+}
+.App{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weatherCont{
+    padding: 30px;
+    background-color: rgba(236, 245, 243, 0.559);
+    border: solid 2px white;
+    border-radius: 10px;
+}
+h1{
+    padding: 25px;
+    color: rgb(33, 128, 183);
+}
+.city{
+    color: rgb(66, 88, 59)
+}
+.iconDegreeCont{
+    flex-wrap: wrap;
+}
+.iconCont{
+    width: 100%;
+}
+.degree{
+    padding:0 10px 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.info{
+    margin-left: 19%;
+}
+.fullInfo p{
+    color: rgb(0, 255, 255);
+    font-weight: bold;
+}
+.info li{
+    padding: 8px;
+}
+.info li span{
+    font-weight: bold;
+    color: rgb(33, 128, 183);
+}
+.buttonCont{
+    padding: 15px;
+}
+button{
+    padding: 8px;
+    background-color: rgb(33, 128, 183);
+    color: white;
+    border: 1px solid white;
+
+}
+
